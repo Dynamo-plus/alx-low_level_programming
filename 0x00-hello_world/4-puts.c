@@ -1,9 +1,15 @@
 #include <stdio.h>
+
+/**
+ * main - Prints the string using puts
+ * Return: must return the value of zero to mark end of line
+ */
+
 int main(void)
 {
-	char str[] = "\"Programming is like building a multilingual puzzle";
+	char string[] = "\"Programming is like building a multilingual puzzle";
 
-	puts(str);
+	puts(string);
 
 	return (0);
 }
