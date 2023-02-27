@@ -8,22 +8,16 @@
  *
  * Return: Always 1 if sucessful.
  */
+
 void _puts(char *str)
 {
 
 	int i;
 
-	while (str[i])
+	while (*str != '\0')
 	{
-		if (_putchar(str[i]) == EOF)
-		{
-			return (EOF);
-		}
-		i++;
+		_putchar(*str++);
 	}
-	if (_putchar('\n') == EOF)
-	{
-		return (EOF);
-	}
-	return (1);
+		_putchar('\n');
+
 }
