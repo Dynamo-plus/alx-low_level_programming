@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * _puts_recursion - function like puts();
@@ -8,10 +9,10 @@ void _puts_recursion(char *s)
 {
 	if (*s)
 	{
-		putchar(*s);
+		_putchar(*s);
 		_puts_recursion(s + 1);
 	}
 
 	else
-		putchar('\n');
+		_putchar('\n');
 }
