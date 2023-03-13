@@ -13,13 +13,14 @@
 
 int main(int argc, char *argv[])
 {
-	int i, num1, num2, result;
+	int num1, num2, result;
 
 	if (argc == 1 || argc == 2)
-
+	{
 		printf("Error\n");
 
 		return (1);
+	}
 
 	num1 = atoi(argv[1]);
 
