@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include "dog.h"
 /**
  * init_dog - Initialize the properties of dog
  * @d: container of the properties of dog
